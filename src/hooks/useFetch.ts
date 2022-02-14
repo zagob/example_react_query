@@ -1,6 +1,7 @@
 import axios, { AxiosRequestConfig } from "axios";
 import { useEffect, useState } from "react";
 
+// Sem react query
 export function useFetch<T = unknown>(
   url: string,
   options?: AxiosRequestConfig
